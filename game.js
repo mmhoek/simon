@@ -69,7 +69,7 @@ function nextSequence() {
 function startOver() {
     level = 0; // Reset the level
     gamePattern = []; // Reset the game pattern
-    clickedPattern = []; // Reset the user's clicked pattern
+    userClickedPattern = []; // Reset the user's clicked pattern
     started = false; // Reset the started flag
 } // Function to reset the game
 
